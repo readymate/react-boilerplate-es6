@@ -1,0 +1,14 @@
+{
+    "env": {
+        "PORT": "8080",
+        "PATH_PRODUCTION": "/"
+    },
+    "version": 2,
+	"name": "readymate-boilerplate-es6",
+    "builds": [
+        { "src": "dist/**/*", "use": "@now/static" }
+    ],
+    "routes": [
+        { "src": "/(.*)", "dest": "/dist/$1" }
+    ]
+}
