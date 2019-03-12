@@ -1,5 +1,7 @@
 # Readymate Boilerplate ES6
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/readymate/react-boilerplate-es6.svg)](https://greenkeeper.io/)
+
 ```bash
 # install dependencies
 yarn
